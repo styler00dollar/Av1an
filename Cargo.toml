@@ -14,3 +14,7 @@ lto = "off"
 codegen-units = 1024
 debug-assertions = true
 overflow-checks = true
+
+[patch.crates-io]
+ffmpeg-next = { git = "https://github.com/FreezyLemon/rust-ffmpeg", branch = "non-exhaustive-enum" }
+ffmpeg-sys-next = { git = "https://github.com/FreezyLemon/rust-ffmpeg-sys", branch = "non-exhaustive-enum" }
