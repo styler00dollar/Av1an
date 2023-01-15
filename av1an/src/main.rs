@@ -111,7 +111,7 @@ pub struct CliOpts {
   pub input: Vec<PathBuf>,
 
   /// Alternate input for scene detection (must have the same frame count)
-  #[clap(short = 'I', parse(from_os_str))]
+  #[clap(short = 'I')]
   pub input_sc: Option<PathBuf>,
   
   /// Video output file
